@@ -22,7 +22,7 @@ This architecture is a combination of a Vision Transformer and DenseNet.
 
 ## Running Code
 
-This project was run on a cluster that utilized a modified version of SLURM.  Packages were provided through OpenCE 1.7.2.
+This project was run on a cluster that utilized a modified version of SLURM.  Packages were provided through OpenCE 1.7.2.  For simplicity, model is referred to as "Av1" in the code.
 
 ```
 #!/bin/bash
