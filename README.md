@@ -28,9 +28,10 @@ python3 model.py
 ## Results
 
 [Validation Results (PDF)](val_results.pdf)
-
-The test set was used only once and no modifications to the model were made thereafter.
 [Test Results (PDF)](test_results.pdf)
+
+10 seeds were used.  For each seed, the model parameters that resulted in the highest validation accuracy in an epoch were used for the test set.
+The test set was used only once and no modifications to the model were made thereafter.
 
 ## Acknowledgements
 This work utilizes resources supported by the National Science Foundation’s Major Research Instrumentation program, grant #1725729, as well as the University of Illinois at Urbana-Champaign.
