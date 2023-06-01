@@ -30,7 +30,7 @@ python3 model.py
 [Validation Results (PDF)](val_results.pdf)
 
 The test set was used only once and no modifications to the model were made thereafter.
-<img src="test_results.png"/>
+[Test Results (PDF)](test_results.pdf)
 
 ## Acknowledgements
 This work utilizes resources supported by the National Science Foundation’s Major Research Instrumentation program, grant #1725729, as well as the University of Illinois at Urbana-Champaign.
