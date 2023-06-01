@@ -4,7 +4,7 @@
 
 ## Dataset
 
-The dataset used was curated by WILDS at Stanford University.  Details on how to install the WILDS package can be found [here](https://wilds.stanford.edu/get_started/).
+The dataset used was curated by WILDS from Stanford University.  Details on how to install the WILDS package can be found [here](https://wilds.stanford.edu/get_started/).
 
 I used the [Camelyon17 dataset](https://wilds.stanford.edu/datasets/#camelyon17) from WILDS, which is a modified version of the [original Camelyon17 challenge](https://doi.org/10.1109/TMI.2018.2867350).
 
