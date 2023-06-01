@@ -21,7 +21,7 @@ This architecture is a combination of a Vision Transformer and DenseNet.
 
 ## Running Code
 
-This project was run on a cluster that utilized a modified version of SLURM.
+This project was run on a cluster that utilized a modified version of SLURM.  Packages were provided through OpenCE 1.7.2.
 
 ```
 #!/bin/bash
@@ -40,8 +40,7 @@ python3 model.py
 
 [Validation Results (PDF)](val_results.pdf) | [Test Results (PDF)](test_results.pdf)
 
-10 seeds were used.  For each seed, the model parameters that resulted in the highest validation accuracy in an epoch were used for the test set.
-The test set was used only once and no modifications to the model were made thereafter.
+10 seeds were used.  For each seed, the model parameters that resulted in the highest validation accuracy in an epoch were used for the test set.  The test set was used only once and no modifications to the model were made thereafter.
 
 ## Acknowledgements
 This work utilizes resources supported by the National Science Foundation’s Major Research Instrumentation program, grant #1725729, as well as the University of Illinois at Urbana-Champaign.
