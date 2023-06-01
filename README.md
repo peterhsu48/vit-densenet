@@ -8,6 +8,17 @@ The dataset used was curated by WILDS from Stanford University.  Details on how 
 
 I used the [Camelyon17 dataset](https://wilds.stanford.edu/datasets/#camelyon17) from WILDS, which is a modified version of the [original Camelyon17 challenge](https://doi.org/10.1109/TMI.2018.2867350).
 
+## Architecture
+
+This architecture is a combination of a Vision Transformer and DenseNet.
+1. Input image patches are given to a 12-encoder layer Vision Transformer.
+2. The output is reshaped in the first transition layer.
+3. The output is given to two branches, which are DenseNets.  The first branch (complex) consists of more Dense layers compared to the second branch (simple).
+4. The outputs from both branches are concatenated.
+5. The concatenated output is given to a second transition layer, which is a DenseNet transition layer.
+6. The output is given to a final DenseNet.
+7. Binary classification is performed using a linear layer and Softmax.
+
 ## Running Code
 
 This project was run on a cluster that utilized a modified version of SLURM.
