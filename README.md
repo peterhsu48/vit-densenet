@@ -22,7 +22,7 @@ This project was run on a cluster that utilized a modified version of SLURM.
 
 module load opence/1.7.2
 python3 -m pip install wilds
-python3 project.py
+python3 model.py
 ```
 
 ## Results
