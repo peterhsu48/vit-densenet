@@ -27,7 +27,7 @@ python3 model.py
 
 ## Results
 
-[Validation Results](val_results.pdf)
+[Validation Results (PDF)](val_results.pdf)
 
 The test set was used only once and no modifications to the model were made thereafter.
 <img src="test_results.png"/>
