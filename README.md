@@ -27,7 +27,7 @@ python3 project.py
 
 ## Results
 
-<img src="train_val_results.png"/>
+<img src="val_results.png"/>
 
 The test set was used only once and no modifications to the model were made thereafter.
 <img src="test_results.png"/>
