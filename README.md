@@ -27,8 +27,7 @@ python3 model.py
 
 ## Results
 
-[Validation Results (PDF)](val_results.pdf)
-[Test Results (PDF)](test_results.pdf)
+[Validation Results (PDF)](val_results.pdf) | [Test Results (PDF)](test_results.pdf)
 
 10 seeds were used.  For each seed, the model parameters that resulted in the highest validation accuracy in an epoch were used for the test set.
 The test set was used only once and no modifications to the model were made thereafter.
