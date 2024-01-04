@@ -22,17 +22,9 @@ This architecture is a combination of a Vision Transformer and DenseNet.
 
 ## Running Code
 
-This project was run on a cluster that utilized a modified version of SLURM.  Packages were provided through OpenCE 1.7.2.  For simplicity, model is referred to as "Av1" in the code.
+This project used packages from OpenCE 1.7.2.  The model is referred to as "Av1" in the code.  In addition to the packages from OpenCE, the following commands are also needed:
 
 ```
-#!/bin/bash
-#SBATCH --job-name="project"
-#SBATCH --output="project.%j.out"
-#SBATCH --error="project.%j.err"
-#SBATCH --partition=gpux1
-#SBATCH --time=24
-
-module load opence/1.7.2
 python3 -m pip install wilds
 python3 model.py
 ```
