@@ -1,5 +1,8 @@
 # Combined ViT-DenseNet
 
+<img src="poster_rev2024.png"/>
+Poster presented at the 2023 Undergraduate Research Symposium hosted by the University of Illinois Urbana-Champaign Office of Undergraduate Research on April 27, 2023.  Revised January 3, 2024.
+
 ## Dataset
 
 The dataset used was curated by WILDS from Stanford University.  Details on how to install the WILDS package can be found [here](https://wilds.stanford.edu/get_started/).
