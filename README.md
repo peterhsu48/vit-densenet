@@ -31,6 +31,7 @@ python3 model.py
 ## Results
 
 <img src=results.png>
+(Graph created Spring 2023)
 
 [Validation Results (PDF)](val_results.pdf) | [Test Results (PDF)](test_results.pdf)
 
