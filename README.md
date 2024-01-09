@@ -1,5 +1,7 @@
 # Combined ViT-DenseNet
 
+<img src=architecture.png>
+
 ## Dataset
 
 The dataset used was curated by WILDS.  Details on how to install the WILDS package can be found [here](https://wilds.stanford.edu/get_started/).
